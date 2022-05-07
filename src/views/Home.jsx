@@ -13,8 +13,14 @@ const Home = () => {
   const darkMode = theme.state.darkMode;
 
   const redirectresume = () => {
-    window.location.href = "https://drive.google.com/file/d/11q0K20b4mPTL5oPfoT2bHfTD2uxmRTRs/view?usp=sharing"
+    const url = "https://drive.google.com/file/d/11q0K20b4mPTL5oPfoT2bHfTD2uxmRTRs/view?usp=sharing"
+    const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+    if (newWindow) newWindow.opener = null
+    // window.location.href = "https://drive.google.com/file/d/11q0K20b4mPTL5oPfoT2bHfTD2uxmRTRs/view?usp=sharing"
   }
+
+
+
   return (
     <>
       <div
