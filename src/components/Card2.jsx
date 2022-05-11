@@ -22,7 +22,7 @@ const Card = () => {
                 />
             </a>
             <div class="p-5">
-                <a href="helo">
+                <a href="#">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         Weather App
                     </h5>
@@ -30,7 +30,7 @@ const Card = () => {
                 <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
                     Webapp to check current weather condition
                 </p>
-                <a href="helo">
+                <a href="#">
                     <h1 class="mb-2 text-m font-bold tracking-tight text-gray-900 dark:text-white">
                         Tech Stack : <span class="text-sm" >HTML, CSS , Advance JS</span>
                     </h1>

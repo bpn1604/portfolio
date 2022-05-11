@@ -126,13 +126,22 @@ const Contact = () => {
             <h1 className="text-3xl  font-bold">Social</h1>
             <ul className="flex">
               {contactLinks.map((el) => (
-                <a
-                  href={el.link}
+                <div
+
                   className="md:ml-6 md:mr-0 mr-6 cursor-pointer mt-4 hover:scale-125 flex flex-col justify-center items-center"
                 >
-                  <img alt="" src={el.url} />
-                  {/* <p className="text-md mt-2 hover:hidden">{el.name}</p> */}
-                </a>
+                  <img
+                    alt=""
+                    src={el.url}
+                    onClick={() => {
+                      const url = el.link
+                      const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+                      if (newWindow) newWindow.opener = null
+
+                    }}
+
+                  />
+                </div>
               ))}
             </ul>
           </div>
