@@ -20,13 +20,14 @@ const About = () => {
 
           About Me
         </h2>
+        <img src={profileimg} style={{ width: "100px", borderRadius: "50%", margin: "auto", marginTop: "16px" }} />
         <div>
           <motion.div>
             <h4 className="mt-12 text-3xl font-semibold text-blue-500">
               A bit about me
             </h4>
             <div style={{ display: "flex" }}>
-              <img src={profileimg} style={{ width: "100px", borderRadius: "50%", marginRight: "1vw", marginTop: "1vw" }} />
+
 
               <p
                 className={
