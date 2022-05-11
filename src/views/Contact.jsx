@@ -126,10 +126,8 @@ const Contact = () => {
             <h1 className="text-3xl  font-bold">Social</h1>
             <ul className="flex">
               {contactLinks.map((el) => (
-                <div
+                <>
 
-                  className="md:ml-6 md:mr-0 mr-6 cursor-pointer mt-4 hover:scale-125 flex flex-col justify-center items-center"
-                >
                   <img
                     alt=""
                     src={el.url}
@@ -139,9 +137,9 @@ const Contact = () => {
                       if (newWindow) newWindow.opener = null
 
                     }}
-
+                    className="mr-5 cursor-pointer mt-8 hover:scale-125"
                   />
-                </div>
+                </>
               ))}
             </ul>
           </div>
