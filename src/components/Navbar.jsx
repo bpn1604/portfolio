@@ -55,7 +55,7 @@ const Navbar = () => {
                   : "text-xl font-medium text-decoration-none whitespace-nowrap text-white"
               }
             >
-              {`<𝒜𝓃𝓊𝓅𝒶𝓂 𝒜𝓃𝒶𝓃𝒹>`}
+              {`𝒜𝓃𝓊𝓅𝒶𝓂 𝒜𝓃𝒶𝓃𝒹`}
             </a>
           </div>
           <div class="hidden justify-between items-center w-full md:flex md:w-auto ">
