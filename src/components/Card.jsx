@@ -22,11 +22,11 @@ const Card = () => {
       <div class="p-5">
         <a href="#">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-            DermStore Clone
+            Myntra Clone
           </h5>
         </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          This website is among biggest distribution of medcine supply online
+          This website is among biggest E-Commerce website online
         </p>
         <a href="#">
           <h1 class="mb-2 text-m font-bold tracking-tight text-gray-900 dark:text-white">
@@ -41,7 +41,7 @@ const Card = () => {
         <div
           style={{ marginRight: "40px" }}
           onClick={() => {
-            const url = "https://eager-roentgen-950e1d.netlify.app/"
+            const url = "https://tourmaline-cuchufli-6c8b21.netlify.app/"
             const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
             if (newWindow) newWindow.opener = null
 
@@ -68,7 +68,7 @@ const Card = () => {
         <div
           style={{ marginRight: "40px" }}
           onClick={() => {
-            const url = "https://github.com/anupamsukla/dermClone"
+            const url = "https://github.com/yashtomar15/myntra-clone"
             const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
             if (newWindow) newWindow.opener = null
 

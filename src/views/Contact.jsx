@@ -16,7 +16,7 @@ const Contact = () => {
     >
       <div className="max-w-7xl mx-auto x-4 sm:px-6 lg:px-8 px-4 ">
         <h2 className="text-5xl font-bold px-4 md:px-0 text-center z-0">
-          Contact
+          Connect with me ...
         </h2>
         <div>
           <h4 className="mt-12 text-3xl font-semibold text-blue-500">
@@ -89,12 +89,12 @@ const Contact = () => {
               </div>
               <div className="flex justify-between ">
                 <div className="underline">
-                  <a href="mailto:aakash.sh858791@gmail.com">
+                  <a href="mailto:bipin.mishra1604@gmail.com">
                     Send me email directly
                   </a>
                 </div>
                 <button className="bg-indigo-500 text-white px-4 py-2 w-40 rounded-md hover:bg-indigo-400">
-                  <a href="mailto:aakash.sh858791@gmail.com">Submit</a>
+                  <a href="mailto:bipinmishra1604@gmail.com">Submit</a>
                 </button>
               </div>
             </form>
@@ -112,14 +112,14 @@ const Contact = () => {
               href="hello"
               className="mb-12 mt-4 font-semibold text-blue-700 block uppercase"
             >
-              anupamanand46@gmail.com
+             bipin.kumar2015@vitalum.ac.in
             </a>
             <h1 className="text-3xl  font-bold">Address</h1>
             <a
               href="hello"
               className="mt-4  mb-12 md:text-right font-semibold text-blue-700 block uppercase"
             >
-              Vaishali Bihar,
+              Darbhanga Bihar,
               <br />
               India
             </a>
@@ -154,7 +154,7 @@ const Contact = () => {
       >
         Made with
         <div className="text-red-500 px-2 text-2xl">&#10084;</div>
-        by Anupam Anand
+        by Bipin kumar
       </div>
     </div>
   );

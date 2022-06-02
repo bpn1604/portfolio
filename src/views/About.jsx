@@ -20,7 +20,7 @@ const About = () => {
 
           About Me
         </h2>
-        <img src={profileimg} style={{ width: "100px", borderRadius: "50%", margin: "auto", marginTop: "16px" }} />
+        <img src={profileimg} style={{ width: "200px", height: "200px" , borderRadius: "50%", margin: "auto", marginTop: "16px" }} />
         <div>
           <motion.div>
             <h4 className="mt-12 text-3xl font-semibold text-blue-500">
@@ -36,7 +36,7 @@ const About = () => {
                     : "mt-4 text-xl text-justify text-white"
                 }
               >
-                I am a Full Stack Web Developer  . I love to take up on new
+                I am a Full Stack Web Developer  . I love to take up  new
                 challenges and learn new skills. I like to interact with people,
                 exchanging ideas and spreading knowledge and positivity.
                 I take into consideration the user experience while writing reusable
@@ -58,8 +58,7 @@ const About = () => {
                   : "mt-4 text-xl text-justify text-white"
               }
             >
-              Using a combination of cutting-edge technologies and reliable
-              open-source software I build user-focused, performant web apps.
+              
             </p>
           </motion.div>
           <motion.div className="flex flex-wrap mt-8 flex flex-wrap justify-between ">

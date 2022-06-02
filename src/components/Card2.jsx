@@ -67,7 +67,7 @@ const Card = () => {
                 <div
                     style={{ marginRight: "40px" }}
                     onClick={() => {
-                        const url = "https://github.com/anupamsukla/weather"
+                        const url = ""
                         const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
                         if (newWindow) newWindow.opener = null
 

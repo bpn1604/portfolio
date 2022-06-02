@@ -22,11 +22,11 @@ const Card = () => {
             <div class="p-5">
                 <a href="#">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                        Paytmmall Clone
+                        CreadoBeauty Clone
                     </h5>
                 </a>
                 <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                    This website is among the few largest indian B2B supply-chain companies
+                Credo Beauty is home to over 130 skincare brands with 90% of them led by women.
                 </p>
                 <a href="#">
                     <h1 class="mb-2 text-m font-bold tracking-tight text-gray-900 dark:text-white">
@@ -37,7 +37,7 @@ const Card = () => {
                 <div
                     style={{ marginRight: "40px" }}
                     onClick={() => {
-                        const url = "https://paytm-mall-masai.netlify.app/"
+                        const url = "https://kind-ardinghelli-3748ea.netlify.app/"
                         const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
                         if (newWindow) newWindow.opener = null
 
@@ -65,7 +65,7 @@ const Card = () => {
                 <div
                     style={{ marginRight: "40px" }}
                     onClick={() => {
-                        const url = "https://github.com/anupamsukla/paytm-mall"
+                        const url = "https://github.com/Thannzz/credo-beauty-clone"
                         const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
                         if (newWindow) newWindow.opener = null
 

@@ -26,6 +26,11 @@ const Navbar = () => {
       name: "Contact",
       route: "contact",
     },
+
+    {
+      name : "Skills",
+      route : "skills"
+    }
   ];
 
   function toggleTheme() {
@@ -55,7 +60,7 @@ const Navbar = () => {
                   : "text-xl font-medium text-decoration-none whitespace-nowrap text-white"
               }
             >
-              {`𝒜𝓃𝓊𝓅𝒶𝓂 𝒜𝓃𝒶𝓃𝒹`}
+              {`Bipin kumar`}
             </a>
           </div>
           <div class="hidden justify-between items-center w-full md:flex md:w-auto ">
