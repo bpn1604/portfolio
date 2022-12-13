@@ -37,7 +37,7 @@ const Card = () => {
                 <div
                     style={{ marginRight: "40px" }}
                     onClick={() => {
-                        const url = "https://kind-ardinghelli-3748ea.netlify.app/"
+                        const url = "https://tourmaline-cuchufli-6c8b21.netlify.app/"
                         const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
                         if (newWindow) newWindow.opener = null
 
