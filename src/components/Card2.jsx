@@ -39,7 +39,7 @@ const Card = () => {
                 <div
                     style={{ marginRight: "40px" }}
                     onClick={() => {
-                        const url = "https://weatheriify.netlify.app/"
+                        const url = "https://flipkartfullstack-orcin.vercel.app/"
                         const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
                         if (newWindow) newWindow.opener = null
 
