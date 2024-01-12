@@ -26,7 +26,7 @@ const Card = () => {
           </h5>
         </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          This website is among biggest E-Commerce website online
+          Construct week projectConstruct week project. Myntra is one of the the largest E-commerce website . This project was given to us for unit3 project . We were team of 6 people , where we worked for one week to clone this website. The biggest challanges we faced during cloning this project was syncronising with our team-members .
         </p>
         <a href="#">
           <h1 class="mb-2 text-m font-bold tracking-tight text-gray-900 dark:text-white">
