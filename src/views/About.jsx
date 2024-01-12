@@ -36,13 +36,9 @@ const About = () => {
                     : "mt-4 text-xl text-justify text-white"
                 }
               >
-                I am a Full Stack Web Developer  . I love to take up  new
-                challenges and learn new skills. I like to interact with people,
-                exchanging ideas and spreading knowledge and positivity.
-                I take into consideration the user experience while writing reusable
-                and efficient code. I passionately combine good design, technology, and innovation
-                as much as i can in all my projects, which I like to accompany from the first idea to
-                release. Currently, I'm focused on the frontend development.
+                Passionate and results-oriented software developer with a year of hands-on experience in the industry. Specializing in React and Redux, I thrive on turning complex challenges into elegant and user-centric solutions. My commitment to continuous learning and creative problem-solving fuels my drive to contribute to cutting-edge projects. Let's build something extraordinary together.
+
+
               </p>
             </div>
           </motion.div>
