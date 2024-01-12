@@ -57,8 +57,7 @@ const Home = () => {
                   : "mt-3 text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
               }
             >
-              I am a Front-End / Full-Stack Developer. I am currently looking for
-              opening as a Front-End Developer
+              Results-driven software developer with one year of industry experience, specializing in React and Redux.
             </p>
             <div className="flex md:justify-start ">
               {contactLinks.map((el) => {
