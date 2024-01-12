@@ -26,7 +26,7 @@ const Card = () => {
                     </h5>
                 </a>
                 <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Credo Beauty is home to over 130 skincare brands with 90% of them led by women.
+                    Credobeauty is online e-commerce website for beauty products. This project is about building a web application to buy wide variety of beauty products.
                 </p>
                 <a href="#">
                     <h1 class="mb-2 text-m font-bold tracking-tight text-gray-900 dark:text-white">
