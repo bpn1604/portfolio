@@ -41,7 +41,7 @@ const Card = () => {
         <div
           style={{ marginRight: "40px" }}
           onClick={() => {
-            const url = "https://fabulous-queijadas-f98643.netlify.app/"
+            const url = "https://myntra-clone-psj4m6p80-bpn1604.vercel.app/"
             const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
             if (newWindow) newWindow.opener = null
 
