@@ -17,7 +17,7 @@ const Card = () => {
             <a href="hello">
                 <img
                     class="rounded-t-lg w-full"
-                    src={https://drive.google.com/file/d/1gme6WcHOrCRt6lB3jrrvHJUneqbQN6lr/view?usp=sharing}
+                    src = { https://drive.google.com/file/d/1gme6WcHOrCRt6lB3jrrvHJUneqbQN6lr/view?usp=sharing }
                     alt=""
                 />
             </a>
