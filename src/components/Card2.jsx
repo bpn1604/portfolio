@@ -17,7 +17,7 @@ const Card = () => {
             <a href="hello">
                 <img
                     class="rounded-t-lg w-full"
-                    src={Weather}
+                    src={https://drive.google.com/file/d/1gme6WcHOrCRt6lB3jrrvHJUneqbQN6lr/view?usp=sharing}
                     alt=""
                 />
             </a>
@@ -67,7 +67,7 @@ const Card = () => {
                 <div
                     style={{ marginRight: "40px" }}
                     onClick={() => {
-                        const url = ""
+                        const url = "https://github.com/bpn1604/Flipkartfullstack"
                         const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
                         if (newWindow) newWindow.opener = null
 
